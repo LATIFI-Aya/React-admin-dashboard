@@ -3,7 +3,7 @@ import MoreVertIcon from '@mui/icons-material/MoreVert';
 import { CircularProgressbar } from "react-circular-progressbar";
 import "react-circular-progressbar/dist/styles.css";
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
-//import KeyboardArrowUpOutlinedIcon from "@mui/icons-material/KeyboardArrowUpOutlined";
+import KeyboardArrowUpOutlinedIcon from "@mui/icons-material/KeyboardArrowUpOutlined";
 
 const Featured = () => {
   return (
@@ -32,14 +32,14 @@ const Featured = () => {
           <div className="item">
             <div className="itemTitle">Last Week</div>
             <div className="itemResult positive">
-              <KeyboardArrowDownIcon fontSize="small"  />
+              <KeyboardArrowUpOutlinedIcon fontSize="small"  />
               <div className="resultAmount">MAD12.4k</div>
             </div>
           </div>
           <div className="item">
             <div className="itemTitle">Last Month</div>
             <div className="itemResult positive">
-              <KeyboardArrowDownIcon fontSize="small"  />
+              <KeyboardArrowUpOutlinedIcon fontSize="small"  />
               <div className="resultAmount">MAD12.4k</div>
             </div>
           </div>
