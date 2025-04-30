@@ -27,7 +27,7 @@ const Sidebar = () => {
                 </li>
                 <p className="title">LISTS</p>
                 <li>
-                  <PersonOutlineIcon />
+                  <PersonOutlineIcon className="icon"/>
                   <span>Users</span>
                 </li>
                 <li>
