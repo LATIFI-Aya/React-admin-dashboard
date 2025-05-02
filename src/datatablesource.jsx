@@ -5,12 +5,12 @@ export const userColumns = [
       width: 70,
     },
     {
-      field: "user",
+      field: "username",
       headerName: 'User',
       width: 230,
       renderCell: (params) => {
         return (
-          <div className="cellwithImg">
+          <div className="cellWithImg">
             <img className="cellImg" src={params.row.img} alt="avatar" />
             {params.row.username}
           </div>

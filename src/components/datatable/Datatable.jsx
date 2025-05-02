@@ -11,12 +11,13 @@ const Datatable = () => {
     renderCell: (params) => {
       return (
         <div className="cellAction">
-          <div className="viewButton"  > View</div>
-          <div className="deleteButton"  > Delete</div>
+          <div className="viewButton" > View</div>
+          <div className="deleteButton" > Delete</div>
         </div>
       );
     },
-  },]
+  },
+];
 
   return (
     <div className="datatable">
@@ -29,6 +30,7 @@ const Datatable = () => {
         sx={{ border: 0 }}
       />
     </div>
+    
   );
 };
 
