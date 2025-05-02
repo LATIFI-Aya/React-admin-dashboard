@@ -35,15 +35,20 @@
                 form{
                     display: flex;
                     flex-wrap: wrap;
-                    gap: 20px;
+                    gap: 30px;
+                    justify-content: space-around;
 
               .formInput{
-                width: 40px;
+                width: 40%;
 
                 label{
                     display: flex;
                     align-items: center;
                     gap: 10px;
+
+                    .icon{
+                        cursor: pointer;
+                    }
                 }
 
                 input{
@@ -52,6 +57,16 @@
                     border: none;
                     border-bottom: 1px solid gray;
                 }
+              }
+
+              button{
+                width: 150px;
+                padding: 10px;
+                border: none;
+                background-color: teal;
+                color: white;
+                cursor: pointer;
+                margin-top: 10px;
               }
                 }
             }
